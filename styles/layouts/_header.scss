@@ -63,7 +63,24 @@ header{
       ul{
        display: flex;
        align-items: center;
-       
+
+      }
+
+      .nav-left{
+        li{
+          @include title;
+          font-size: 0.7rem;
+          padding:0 15px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+
+          &:first-child {
+            background: $white1;
+            color: $black1;
+          }
+        }
       }
     }
    
