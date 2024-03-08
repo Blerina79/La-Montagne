@@ -13,5 +13,15 @@ header{
       transform: translate(40px);
       animation:headerAnim 1.5s forwards;
 
+      @keyframes headerAnim {
+        to{
+          transform: translateY(0);
+          opacity: 1;
+        }
+        
+      }
+
     }
+
+    
 }
