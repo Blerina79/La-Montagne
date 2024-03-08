@@ -67,6 +67,10 @@ header{
       }
 
       .nav-left{
+        &:hover li:not(:hover){
+          background: none;
+        }
+
         li{
           @include title;
           font-size: 0.7rem;
@@ -78,6 +82,11 @@ header{
 
           &:first-child {
             background: $white1;
+            color: $black1;
+          }
+
+          &:hover {
+            background:$white1;
             color: $black1;
           }
         }

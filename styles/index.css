@@ -168,6 +168,9 @@ header nav ul {
       -ms-flex-align: center;
           align-items: center;
 }
+header nav .nav-left:hover li:not(:hover) {
+  background: none;
+}
 header nav .nav-left li {
   font-family: inter-bold, sans serif;
   letter-spacing: 2px;
@@ -184,6 +187,10 @@ header nav .nav-left li {
   cursor: pointer;
 }
 header nav .nav-left li:first-child {
+  background: rgb(243, 243, 243);
+  color: rgb(17, 17, 17);
+}
+header nav .nav-left li:hover {
   background: rgb(243, 243, 243);
   color: rgb(17, 17, 17);
 }
